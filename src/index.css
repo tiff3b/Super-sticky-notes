@@ -1,12 +1,23 @@
 * {
   box-sizing: border-box;
 }
-
+#root{
+  height: 100%;
+}
+html{
+  height: 100%;
+  margin: 0;
+}
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('../img/flowers-blackboard.jpg')no-repeat center center fixed;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 input,
@@ -25,6 +36,7 @@ textarea {
 .app-header__title {
   margin: 10px 20px 0px;
   font-family: Arial, sans-serif;
+  color: lightyellow;
 }
 
 .app-header__controls {
